@@ -1,0 +1,117 @@
+/*--------------Resets--------------*/
+
+/*Reset de margens geral*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*Reset da formatação de links*/
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+/*Reset da estrutura de listas*/
+ul,ol,li{
+    list-style: none;
+}
+
+/*--------------Valores referência--------------*/
+
+:root{                                  /*Criando valores referência a serem usados em outros campos*/
+    --primary-color: #F5CF06; 
+    --secondary-color: #8E4106;
+}
+
+/*------------------------------------------------------------------------------*/
+/*---------------------------FORMATAÇÃO BASE (Mobile)---------------------------*/
+/*------------------------------------------------------------------------------*/
+
+
+
+/*--------------BODY--------------*/
+body{
+    font-family: "Righteous", sans-serif;
+    width: 360px;
+    height: 640px;
+    background-color: var(--primary-color);
+    display: flex;
+    flex-direction: column;
+    font-size:40px
+}
+
+/*--------------HEADER--------------*/
+header{
+}
+
+.pokemon-logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 17px;
+    margin: 30px;
+}
+
+/*--------------HOME--------------*/
+
+.home{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h1{
+    display: flex;
+    align-items: center;
+    color: #fff;
+    font-size: 80px;
+    height: 214px;
+
+    position: absolute;
+    top: 42px;
+    left: 37px;
+    z-index: -1;
+}
+
+.watermark{
+    color: #ffffff50;
+    font-size: 100px;
+    left: -3px;
+    top: 0px;
+}
+
+.pikachu{
+    margin-top:50px;
+}
+
+h2{
+    color: var(--secondary-color);
+    font-size: 32px;
+}
+
+.hero h2{
+    font-size: 40px;
+    margin-top:-15px
+}
+span{
+    color: var(--secondary-color);
+    font-size: 20px;
+    display: none;
+}
+
+.download-button{
+    background-color: var(--secondary-color);
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    width: 312px;
+    height: 100px;
+}
+
+
