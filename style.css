@@ -74,14 +74,17 @@ h1{
 
     position: absolute;
     top: 42px;
-    left: 37px;
+    
+    left: 50%;
+    transform: translate(-50%); /*Centralizando*/
     z-index: -1;
 }
 
 .watermark{
     color: #ffffff50;
     font-size: 100px;
-    left: -3px;
+    left: 50%;
+    transform: translate(-50%); /*Centralizando*/
     top: 0px;
 }
 
@@ -139,16 +142,12 @@ span{
     h1{
         font-size: 180px;
         height: 224px;
-
-        top: 124px;
-        left: 56px;
+        
         font-weight: 40;
     }
     
     .watermark{
         font-size: 200px;
-        left: 19px;
-        top: 50px;
         font-weight: 40;
     }
     .pikachu-image{
@@ -179,5 +178,11 @@ span{
         width: 411px;
         height: 100px;
     }
+
+}
+/*------------------------------------------------------------------------------*/
+/*------------------------FORMATAÇÃO DESKTOP (1440x900)-------------------------*/
+/*------------------------------------------------------------------------------*/
+@media (min-width:1440px){
 
 }
