@@ -92,7 +92,7 @@ h1{
 }
 
 .pikachu-image{
-    background-image: url(./img/pikachu-compressed.png);
+    background-image: url(./img/pikachu-compressed.svg);
     width: 333px;
     height: 323px;
 
@@ -103,7 +103,7 @@ h1{
     display: flex;
     flex-direction: column;
     align-items: center;
-    bottom:3%;
+    bottom: 3%;
 }
 
 
@@ -161,7 +161,7 @@ footer{
         transform: translate(-50%, 21%); /*Centralizando*/
     }
     .pikachu-image{
-        background-image: url(./img/pikachu.png);
+        background-image: url(./img/pikachu.svg);
         width: 559px;
         height: 541px;
     
@@ -218,7 +218,7 @@ footer{
         transform: translate(-50%, -60%); /*Centralizando*/
     }
     .pikachu-image{
-        background-image: url(./img/pikachu.png);
+        background-image: url(./img/pikachu.svg);
         width: 559px;
         height: 541px;
     
